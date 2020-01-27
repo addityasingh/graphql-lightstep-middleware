@@ -12,7 +12,7 @@
     "pretty": true,
     "removeComments": true,
     "lib": ["es6", "esnext.asynciterable"],
-    "types": ["@types/node", "@types/jest"]
+    "typeRoots": ["./node_modules/@types"]
   },
   "exclude": ["node_modules", "dist"]
 }
