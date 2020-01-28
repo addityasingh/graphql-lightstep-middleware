@@ -15,8 +15,6 @@
   "author": "Aditya Pratap Singh<adisinghrajput@gmail.com>",
   "license": "ISC",
   "devDependencies": {
-    "@types/jest": "^24.0.13",
-    "@types/node": "^12.0.2",
     "husky": "^2.3.0",
     "jest": "^24.7.1",
     "lint-staged": "^8.1.5",
@@ -63,6 +61,8 @@
     }
   },
   "dependencies": {
+    "@types/jest": "^24.9.1",
+    "@types/node": "^13.5.0",
     "graphql": "^14.5.8",
     "graphql-middleware": "^4.0.2",
     "graphql-tools": "^4.0.6",
