@@ -4,7 +4,7 @@ import { makeExecutableSchema } from 'graphql-tools';
 const graphqlExpressHttp = require("express-graphql");
 import { initGlobalTracer, globalTracer } from "opentracing";
 import { Tracer as LightstepTracer } from "lightstep-tracer";
-import graphqlLightstepMiddleware from '../../dist/index.js';
+import graphqlLightstepMiddleware from 'graphql-lightstep-middleware';
 
 
 // Initialise the lightstep tracer
