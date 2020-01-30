@@ -2,10 +2,10 @@
 
 [![NPM](https://nodei.co/npm/graphql-lightstep-middleware.png)](https://npmjs.org/package/graphql-lightstep-middleware)
 
-GraphQL middleware to instrument resolvers with opentracing traces for lightstep collector
+GraphQL middleware to instrument and augment resolvers with opentracing traces for lightstep collector
 
 ![build](https://github.com/addityasingh/graphql-lightstep-middleware/workflows/build/badge.svg)
-[![downloads](https://img.shields.io/npm/dt/graphql-lightstep-middleware.svg)](https://npmjs.org/package/graphql-lightstep-middleware?cacheSeconds=3600)
+[![downloads](https://img.shields.io/npm/dt/graphql-lightstep-middleware.svg)](https://npmjs.org/package/graphql-lightstep-middleware?cacheSeconds=60)
 [![version](https://img.shields.io/npm/v/graphql-lightstep-middleware.svg)](https://npmjs.org/package/graphql-lightstep-middleware?cacheSeconds=3600)
 
 ## Table of contents
