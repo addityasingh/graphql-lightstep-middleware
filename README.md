@@ -1,8 +1,24 @@
 # graphql-lightstep-middleware
 
+[![NPM](https://nodei.co/npm/graphql-lightstep-middleware.png)](https://npmjs.org/package/graphql-lightstep-middleware)
+
 GraphQL middleware to instrument resolvers with opentracing traces for lightstep collector
 
-## Usage
+![build](https://github.com/addityasingh/graphql-lightstep-middleware/workflows/build/badge.svg)
+[![downloads](https://img.shields.io/npm/dt/graphql-lightstep-middleware.svg)](https://npmjs.org/package/graphql-lightstep-middleware?cacheSeconds=3600)
+[![version](https://img.shields.io/npm/v/graphql-lightstep-middleware.svg)](https://npmjs.org/package/graphql-lightstep-middleware?cacheSeconds=3600)
+
+## Table of contents
+
+- [Getting started](#getting-started)
+- [API](#api)
+- [Contributing](#contributing)
+  - [Code of Conduct](#code-of-conduct)
+  - [Contributing](#contributing)
+  - [Good first issues](#good-first-issues)
+- [License](#licence)
+
+## Getting started
 
 1. Install the package and graphql-middleware
 
@@ -85,4 +101,32 @@ app.use(
 );
 ```
 
-## Development
+## API
+
+### middleware = graphqlLightstepMiddleware([options])
+
+- `options`
+  - `tracer`: An optional `lightstep` tracer object
+  - `hooks`: Lost of `PreResolve` and `PostResolve` hooks
+
+Refer the [examples](./examples) for more usage examples
+
+## Contributing
+
+`graphql-lightstep-middleware` package intends to support contribution and support and thanks the open source community to making it better. Read below to learn how you can improve this repository and package
+
+### Code of Conduct
+
+Please check the [CODE OF CONDUCT](./CODE_OF_CONDUCT) which we have in place to ensure safe and supportive environment for contributors
+
+### Contributing
+
+Feel free to create issues and bugs in the issues section using issues and bugs template. Please also ensure that there are not existing issues created on the same topic
+
+### Good first issues
+
+Please check issues labeled [#good-first-issues](https://github.com/addityasingh/graphql-lightstep-middleware/labels/good%20first%20issue) under the issues section
+
+## Licence
+
+`graphql-lightstep-middleware` uses [MIT License](./LICENSE)

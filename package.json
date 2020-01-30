@@ -2,7 +2,7 @@
   "name": "graphql-lightstep-middleware",
   "version": "0.0.1",
   "description": "GraphQL middleware to instrument resolvers with opentracing traces for lightstep collector",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "precommit": "lint-staged",
     "format": "prettier --no-config --write 'src/**/*.ts'",
@@ -49,7 +49,7 @@
   },
   "lint-staged": {
     "linters": {
-      "*.ts": [
+      "src/*.ts": [
         "tslint -p tsconfig.json --fix",
         "prettier --no-config --write",
         "git add"
@@ -65,7 +65,6 @@
     "@types/node": "^13.5.0",
     "graphql": "^14.5.8",
     "graphql-middleware": "^4.0.2",
-    "graphql-tools": "^4.0.6",
     "opentracing": "^0.14.4"
   }
 }
